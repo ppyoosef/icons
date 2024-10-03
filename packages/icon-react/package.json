@@ -1,0 +1,46 @@
+{
+  "name": "icon-react",
+  "version": "0.0.1",
+  "description": "React library",
+  "keywords": [
+    "React",
+    "Icon"
+  ],
+  "author": "ppyoosef <yoosef.palamadathil@gmail.com>",
+  "homepage": "https://github.com/ppyoosef/icons#readme",
+  "license": "ISC",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppyoosef/icons.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "demo-start": "parcel demo/index.html"
+  },
+  "bugs": {
+    "url": "https://github.com/ppyoosef/icons/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5",
+    "rollup": "^4.24.0",
+    "rollup-plugin-jsx": "^1.0.3"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

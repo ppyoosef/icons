@@ -1,0 +1,19 @@
+{
+    "name": "icon-react-demo",
+    "version": "0.0.1",
+    "description": "React library Demo",
+    "keywords": [
+      "React",
+      "Icon"
+    ],
+    "author": "ppyoosef <yoosef.palamadathil@gmail.com>",
+    "homepage": "https://github.com/ppyoosef/icons#readme",
+    "license": "ISC",
+    "scripts": {
+      "demo-start": "parcel index.html"
+    },
+    "bugs": {
+      "url": "https://github.com/ppyoosef/icons/issues"
+    }
+  }
+  
