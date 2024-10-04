@@ -3,17 +3,17 @@
     "version": "0.0.1",
     "description": "React library Demo",
     "keywords": [
-      "React",
-      "Icon"
+        "React",
+        "Icon"
     ],
     "author": "ppyoosef <yoosef.palamadathil@gmail.com>",
     "homepage": "https://github.com/ppyoosef/icons#readme",
     "license": "ISC",
-    "scripts": {
-      "demo-start": "parcel index.html"
-    },
     "bugs": {
-      "url": "https://github.com/ppyoosef/icons/issues"
+        "url": "https://github.com/ppyoosef/icons/issues"
+    },
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     }
-  }
-  
+}
