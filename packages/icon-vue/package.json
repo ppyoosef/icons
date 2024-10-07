@@ -1,0 +1,39 @@
+{
+  "name": "icon-vue",
+  "version": "0.0.1",
+  "description": "icon library for vue",
+  "keywords": [
+    "icon",
+    "vue"
+  ],
+  "author": "ppyoosef <yoosef.palamadathil@gmail.com>",
+  "homepage": "https://github.com/ppyoosef/icons#readme",
+  "license": "ISC",
+  "main": "lib/icon-vue.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppyoosef/icons.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "bugs": {
+    "url": "https://github.com/ppyoosef/icons/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.24.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^3.5.11"
+  },
+  "dependencies": {
+    "icon-vue": "^0.0.1"
+  }
+}
