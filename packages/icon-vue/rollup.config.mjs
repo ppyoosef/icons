@@ -8,11 +8,11 @@ export default [
     output: [
       {
         format: 'esm',
-        file: 'dist/icon-vue.min.mjs'
+        file: 'dist/index.mjs'
       },
       {
         format: 'cjs',
-        file: 'dist/icon-vue.min.cjs'
+        file: 'dist/index.cjs'
       }
     ],
     plugins: [
@@ -23,7 +23,7 @@ export default [
         }
       }),
       peerDepsExternal(),
-      terser()
+      // terser()
     ]
   }
 ]

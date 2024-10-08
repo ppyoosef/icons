@@ -2,7 +2,9 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/icon-vue/",
+    "packages/icon-react/demo"
   ],
   "dependencies": {},
   "devDependencies": {

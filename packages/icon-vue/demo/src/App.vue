@@ -1,6 +1,6 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
-import Icon from 'icon-vue';
+import {Icon} from 'icon-vue';
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import Icon from 'icon-vue';
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <Icon name="airport_sign_1" size=100 color="blue"></Icon> 
+  <Icon name="airport_sign_1" size=100 color="green"></Icon> 
 </template>
 
 <style scoped>
