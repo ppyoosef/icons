@@ -10,22 +10,28 @@
   "author": "ppyoosef <yoosef.palamadathil@gmail.com>",
   "homepage": "https://github.com/ppyoosef/icons#readme",
   "license": "ISC",
-  "main": "lib/icon-core.js",
+  "main": "dist/index.mjs",
   "directories": {
     "lib": "lib",
-    "test": "__tests__"
+    "dist":"dist"
   },
   "files": [
-    "lib"
+    "lib",
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ppyoosef/icons.git"
   },
   "scripts": {
-    "build": "node lib/icon-core.js"
+    "generate": "node lib/icon-core.js",
+    "build": "rollup -c"
   },
   "bugs": {
     "url": "https://github.com/ppyoosef/icons/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.24.0"
   }
 }

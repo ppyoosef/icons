@@ -1,5 +1,5 @@
 <script>
-import { icons } from "../../icon-core/lib/icon-data";
+import { icons } from "icon-core";
 
 export default {
     name: "Icon",
