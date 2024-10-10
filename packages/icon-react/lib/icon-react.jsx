@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import {icons} from '../../icon-core/lib/icon-data';
+import {icons} from 'icon-core';
 
 const Icon = ({ name, size, color, displayIcon }) => {
 

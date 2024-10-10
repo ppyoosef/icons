@@ -1,4 +1,3 @@
-import vue from 'rollup-plugin-vue'
 import terser from '@rollup/plugin-terser'
 
 export default [

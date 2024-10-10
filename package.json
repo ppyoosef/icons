@@ -3,8 +3,8 @@
   "private": true,
   "workspaces": [
     "packages/*",
-    "packages/icon-vue/*",
-    "packages/icon-react/*"
+    "packages/icon-vue/demo",
+    "packages/icon-react/demo"
   ],
   "devDependencies": {
     "lerna": "^8.1.8"

@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from 'icon-react'; // adjust path as needed
+import Icon from 'icon-react';
 
 function App() {
   return (
