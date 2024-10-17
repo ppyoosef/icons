@@ -3,9 +3,9 @@
 import React from 'react';
 import {icons} from 'icon-core';
 
-const Icon = ({ name, size, color, displayIcon }) => {
+const Icon = ({ name, size, color }) => {
 
-    displayIcon = icons.find((e) => e.name === name);
+    const displayIcon = icons.find((e) => e.name === name);
 
     return (
         <svg

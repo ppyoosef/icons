@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "lib": ["es2015", "dom"], 
+      "outDir": "dist/types",
+      "jsx": "react",
+      "allowJs": true,
+      "esModuleInterop": true
+    },
+    "include": ["lib/**/*"]
+  }
