@@ -19,7 +19,7 @@ const fontHeight = 1000
 
 // const aliases = getAliases(true)
 
-fs.mkdirSync(`../dist/fonts`, { recursive: true })
+fs.mkdirSync(`dist/fonts`, { recursive: true })
 
 // types.push('all')
 
@@ -41,7 +41,7 @@ fs.mkdirSync(`../dist/fonts`, { recursive: true })
   await webfont({
     files: `../../icons/*.svg`,
     fontName: 'icons',
-    prependUnicode: true,
+    prependUnicode: false,
     formats,
     normalize: true,
     fontHeight,
@@ -50,8 +50,8 @@ fs.mkdirSync(`../dist/fonts`, { recursive: true })
     fixedWidth: false
   })
     .then((result) => {
-      formats.forEach(format => {
-        fs.writeFileSync(`../dist/fonts/icons.${format}`, result[format])
+      formats.forEach(format => { 
+        fs.writeFileSync(`dist/fonts/icons.${format}`, result[format])
       })
 
       const glyphs = result.glyphsData
@@ -71,12 +71,12 @@ fs.mkdirSync(`../dist/fonts`, { recursive: true })
       //scss
       const compiled = template(fs.readFileSync(`lib/icon-font.scss`).toString())
       const resultSCSS = compiled(options)
-      fs.writeFileSync(`../dist/icons.scss`, resultSCSS)
+      fs.writeFileSync(`dist/icons.scss`, resultSCSS)
 
       //html
       const compiledHtml = template(fs.readFileSync(`lib/icon-font.html`).toString())
       const resultHtml = compiledHtml(options)
-      fs.writeFileSync(`../dist/icons.html`, resultHtml)
+      fs.writeFileSync(`dist/icons.html`, resultHtml)
     })
     .catch((error) => {
       throw error;
