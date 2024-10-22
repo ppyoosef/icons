@@ -22,9 +22,13 @@
     "url": "git+https://github.com/ppyoosef/icons.git"
   },
   "scripts": {
-    "test": "node ./__tests__/icon-webfont.test.js"
+    "build:webfont": "node lib/icon-webfont.mjs"
   },
   "bugs": {
     "url": "https://github.com/ppyoosef/icons/issues"
+  },
+  "devDependencies": {
+    "lodash.template": "^4.5.0",
+    "webfont": "^11.2.26"
   }
 }
